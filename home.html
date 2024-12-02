@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery de Café</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Cardápio de Café</h1>
+    </header>
+
+    <main>
+        <section id="produtos">
+            <h2>Produtos</h2>
+            <ul id="lista-produtos"></ul>
+        </section>
+
+        <section id="novo-pedido">
+            <h2>Fazer Pedido</h2>
+            <form id="form-pedido">
+                <label for="cliente-id">ID do Cliente:</label>
+                <input type="text" id="cliente-id" required aria-required="true"><br><br>
+
+                <label for="produto-id">Produto:</label>
+                <select id="produto-id" required aria-required="true">
+                    <option value="">Selecione um produto</option>
+                </select><br><br>
+
+                <button type="submit">Realizar Pedido</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

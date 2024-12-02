@@ -1,0 +1,52 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #aecce6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+#produtos, #novo-pedido {
+    padding: 20px;
+}
+
+#produtos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#produtos li {
+    padding: 10px;
+    background-color: #fff;
+    margin: 5px 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#cliente-id{
+    border-style: double;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #444;
+}
